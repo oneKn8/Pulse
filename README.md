@@ -12,7 +12,7 @@ Built to demonstrate expertise in HPC infrastructure, observability pipelines, a
 - **AI Operations Assistant**: LLM-powered chat for cluster analysis (Ollama + llama3.2)
 - **Real-time Dashboard**: React 19 fleet management UI with live updates
 - **Pre-configured Dashboards**: 5 Grafana dashboards for GPU, jobs, alerts, and network
-- **Production-Ready Alerting**: 30+ alert rules across 5 categories
+- **Production-Ready Alerting**: 23 alert rules across 5 categories
 
 ## Quick Start
 
@@ -198,7 +198,7 @@ GET /metrics                          # Prometheus metrics endpoint
 
 ## Alert Rules
 
-30+ production-grade alert rules across 5 categories:
+23 production-grade alert rules across 5 categories:
 
 | Category | Examples |
 |----------|----------|

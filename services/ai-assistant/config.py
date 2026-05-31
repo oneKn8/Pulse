@@ -20,7 +20,7 @@ class Settings(BaseSettings):
     job_scheduler_url: str = "http://job-scheduler:8083"
     prometheus_url: str = "http://prometheus:9090"
 
-    # RAG configuration
+    # Live context-injection configuration
     max_context_items: int = 10
     max_alert_history: int = 20
     max_job_history: int = 50

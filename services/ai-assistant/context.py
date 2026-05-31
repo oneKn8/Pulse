@@ -1,4 +1,4 @@
-"""Context service for RAG - fetches cluster data for LLM context injection."""
+"""Live cluster-state context injection - fetches current cluster data for the LLM."""
 
 import logging
 from typing import Optional
@@ -69,7 +69,7 @@ class ContextService:
             return {"jobs": [], "stats": {}}
 
     async def get_full_context(self) -> ClusterContext:
-        """Fetch and aggregate full cluster context for RAG."""
+        """Fetch and aggregate the full live cluster-state context for the LLM."""
         # Fetch all data concurrently
         import asyncio
 

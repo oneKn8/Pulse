@@ -50,7 +50,7 @@ class InvestigationResponse(BaseModel):
 
 
 class ClusterContext(BaseModel):
-    """Current cluster context for RAG."""
+    """Current live cluster-state context injected into the LLM."""
 
     nodes_total: int = 0
     nodes_up: int = 0
